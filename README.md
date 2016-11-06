@@ -1,6 +1,10 @@
 # As Neves curso 2016/17
 
 
+Listado de ficheiros para teclear contido en main.tex e que compile para obter formatos distintos
+
+
+
 *configurarTorino.tex ))) propiedades do tema
 
 
@@ -14,7 +18,7 @@ Escribo fichas en todos os \begin{frame} que sexan necesarios. Fóra dos frame t
  Compilo para obter o contido dos frame e o texto a maiores que estaba fóra dos frames
 
 * main.4en1.tex)))
-Compilando as fichas de catro en catro para imprimir a coloríns 
+Compilando as fichas de catro en catro para imprimir a coloríns
 
 * main.anotacions.tex)))
 
