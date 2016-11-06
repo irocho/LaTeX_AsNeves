@@ -1,7 +1,7 @@
 # As Neves curso 2016/17
 
 
-Listado de ficheiros para teclear contido en main.tex e que compile para obter formatos distintos
+Listado de ficheiros para teclear contido en main.tex e que compile para obter formatos distintos: exame, diapos,...
 
 
 
