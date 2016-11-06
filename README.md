@@ -5,7 +5,7 @@ Listado de ficheiros para teclear contido en main.tex e que compile para obter f
 
 
 
-*configurarTorino.tex ))) propiedades do tema
+*configurarTorino.tex ))) propiedades do tema, p.e. verde ou morado
 
 
 * main.tex )))))
