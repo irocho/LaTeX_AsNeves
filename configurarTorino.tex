@@ -1,0 +1,35 @@
+\usepackage[spanish,galician]{babel}
+\usepackage[utf8]{inputenc}     
+
+%%---------------------------------------------------------------------
+%%   Uso propiedades do Torino
+%%---------------------------------------------------------------------
+
+\usetheme[pageofpages=de,	%  1 de 15         
+	bullet=square,			% Use circles instead of squares for bullets.
+	titleline=true,			% Show a line below the frame title.
+	alternativetitlepage=true, 	% Use the fancy title page.
+	titlepagelogo=i_logo.png,	% Logo for the first page: i grandota
+          ]{Torino}
+      
+             
+%%---------------------------------------------------------------------
+%%  Portada. Vai onde poña \maketitle
+%%---------------------------------------------------------------------
+
+\logo{\includegraphics[height=0.4cm]{logo.png}}		%cada diapo arriba á dereita
+\date{http://irocho.wordpress.com}
+\institute{\asignatura }
+\author[\insertframenumber/\inserttotalframenumber \hspace{24em}]{ 
+Formación Profesional
+} 
+
+\title{ \titulito}
+
+             
+%%---------------------------------------------------------------------
+%%  Trae contido
+%%---------------------------------------------------------------------
+
+\input{main.tex}
+
