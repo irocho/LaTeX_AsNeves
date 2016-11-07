@@ -1,0 +1,142 @@
+%---------------------------------------------------------------------------------------------
+ %  Contido :
+ %        diapos con:  \begin{frame}..... \end{frame}
+ % 	    texto que vai saír por impresora: fóra dos frame
+ %        notas íntimas que podo imprimir á parte \note{}
+ %---------------------------------------------------------------------------------------------
+ 
+% Lembrar non \documentclass.... 
+
+%---------------------------------------------------------------------------------------------
+ %  Paquetería común 
+  %---------------------------------------------------------------------------------------------
+\usepackage[spanish,galician]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+%\usepackage{epsfig} 	% for figures
+%\usepackage{xcolor} 	% for color
+%\usepackage{amssymb,amsmath}
+
+
+%   Simple ou dobre columna
+ \usepackage{multicol}
+
+%ligazóns
+\usepackage{hyperref}	
+
+%----------------------------------------------------------------------------------------------------------------
+%  Títulos
+%---------------------------------------------------------------------------------------------------------------- 
+		
+\newcommand{\titulito}{
+Profundo momento da vida
+}
+\subtitle{
+Podo no fondo facer un pequeno resumo 
+}
+
+
+\newcommand{\asignatura}{
+Sistemas Operativos Monoposto
+%Montaxe e Mantemento
+}
+
+\begin{document}
+%----------------------------------------------------------------------------------------------------------------
+%  Títulos segundo o tipo de documento
+%---------------------------------------------------------------------------------------------------------------- 
+     
+\begin{frame}
+\mode <beamer>{
+\maketitle
+}
+\end{frame}
+
+% o título queda máis chulo sen ser a dúas columnas
+\mode <article>{
+\begin{multicols}{1}
+\maketitle
+\end{multicols}
+}
+
+%----------------------------------------------------------------------------------------------------------------
+% Contido
+%---------------------------------------------------------------------------------------------------------------- 
+\abstract{
+	Como non está nun frame non se verá nas presentacións
+	}
+\note{
+	Só cando compile anotacións verei esto
+	}
+
+Son a primeira liña despois do resumo da columna da esquerda e saio no folio que vou imprimir
+\begin{frame}{Linus Torvalds \dots}
+
+\begin{itemize}
+\item programou sistemas operativos partindo de cero \pause
+\item morreu nos anos 70 \pause
+\item vivíu no século XIX \pause
+\item creou un sistema operativo de código aberto\pause
+\end{itemize}
+\end{frame}
+
+\note{vai indo fora}
+Son a  liña da columna da esquerda que vai xusto despois da primera diapo e saio no folio que vou imprimir
+
+\begin{frame}{Un exemplo de distro de Linux \dots}
+\begin{enumerate}
+\item Debian \pause
+\item Slackware \pause
+\item Red Hat Enterprise \pause
+\item todas as respostas son correctas\pause
+\end{enumerate} 
+\end{frame}
+\note{despois das distros}
+
+
+\begin{frame}{Un exemplo de distro de Linux \dots}
+\begin{enumerate}
+\item Debian \pause
+\item Slackware \pause
+\item Red Hat Enterprise \pause
+\item todas as respostas son correctas\pause
+\end{enumerate} 
+\end{frame}
+\note{despois das distros}
+
+O epílogo escribiráse
+O epílogo escribiráseO epílogo escribiráseO epílogo escribiráseO epílogo escribiráseO epílogo escribiráseO epílogo escribiráseO epílogo escribiráse
+%%%%%%
+
+\end{document}
+
+\note{       }
+
+%\begin{figure}
+%\includegraphics{./debuxos/micro.png}
+%\end{figure}
+
+
+
+\begin{frame}{Un exemplo de distro de Linux \dots}
+\begin{enumerate}
+\item  \pause
+\item \pause
+\item  \pause
+\item        \pause
+\end{enumerate} 
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
