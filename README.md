@@ -6,7 +6,7 @@
 ##Carpeta modeloAsNeves/
 Chea de cousas: teclear contido en main.tex, engadir package en paquetes.txt, compilar a xeito
 
-* paquetes.tex)))
+* paquetes.tex))))
 redefinicións e paquetes
 
 * main.tex )))))
@@ -20,7 +20,7 @@ Escribo fichas en todos os \begin{frame}ou \begin{diapo} que sexan necesarios. F
  Compilo para obter o contido dos frame e o texto a maiores que estaba fóra dos frames
 
 * main.4en1.tex)))
-Compilando as fichas de catro en catro para imprimir a coloríns 
+Compilando as fichas de catro en catro para imprimir a coloríns
 
 * main.anotacions.tex)))
 
@@ -36,4 +36,3 @@ Compilo diapos Torino por pregunta non por resposta
 
 #### Carpeta debuxos/
 * os logos e todo o que vaia precisando
-
