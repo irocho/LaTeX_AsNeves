@@ -1,6 +1,9 @@
 #As Neves curso 2016/17
 
+Plantillas usadas:
+
 ### Modelos para ficha de traballo dunha páxina: logo, título, preguntas
+
 ### Modelo para exame: clase exam con solucións
 
 ##Carpeta modeloAsNeves/
